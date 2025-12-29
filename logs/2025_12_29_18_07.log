@@ -1,0 +1,6 @@
+2025-12-29 18:07:05,122 - root - INFO - before data ingestion
+2025-12-29 18:07:05,133 - root - INFO - after data ingestion
+2025-12-29 18:07:05,134 - root - INFO - after concating
+2025-12-29 18:07:05,134 - root - INFO - after makedirs
+2025-12-29 18:07:05,154 - root - INFO - after saving
+2025-12-29 18:07:05,170 - root - INFO - after data ingestion
