@@ -38,7 +38,8 @@ class DataIngestion:
         except:
             pass
 
-    
+
+# only for testing    
 if __name__=="__main__":
     obj = DataIngestion()
     obj.initiate_data_ingestion()
