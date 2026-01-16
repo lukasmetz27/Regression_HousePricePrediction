@@ -7,9 +7,11 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder,StandardScaler
 
 import os
+import sys
 from dataclasses import dataclass
 from src.logger import logging
 from src.utils import save_object
+from src.exception import CustomException
 
 
 @dataclass
@@ -133,5 +135,5 @@ class DataTransformation:
                 self.data_transformation_config.preprocessor_obj_file_path,
             )
         except Exception as e:
-            #raise CustomException(e,sys)
-            pass
+            raise CustomException(e,sys)
+            
